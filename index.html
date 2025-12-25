@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Merry Christmas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro-scene">
+        <div class="snow-container" id="snowContainer"></div>
+        <div class="gift-container" onclick="openGift()">
+            <div class="gift-box">
+                <div class="gift-lid"><div class="ribbon-bow"></div></div>
+                <div class="gift-body"><div class="ribbon-body"></div></div>
+                <div class="glow-effect"></div>
+            </div>
+            <div class="click-hint">แตะเพื่อเปิดของขวัญ</div>
+        </div>
+    </div>
+
+    <div id="flash-overlay"></div>
+
+    <div id="memory-scene">
+        <div id="snowballContainer" class="snowball-container"></div>
+
+        <div class="tree-wrapper">
+            <div class="christmas-tree">
+                <div class="tree-star">★</div>
+                <div class="tree-layer top"></div>
+                <div class="tree-layer middle"></div>
+                <div class="tree-layer bottom"></div>
+                <div class="tree-trunk"></div>
+                <div class="ornament o1"></div>
+                <div class="ornament o2"></div>
+                <div class="ornament o3"></div>
+                <div class="ornament o4"></div>
+                <div class="ornament o5"></div>
+            </div>
+            <div class="tree-shadow"></div>
+        </div>
+
+        <div class="snowman-wrapper">
+            <div class="snowman">
+                <div class="snow-body"></div>
+                <div class="snow-head">
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="nose"></div>
+                    <div class="cheek left"></div>
+                    <div class="cheek right"></div>
+                    <div class="hat">
+                        <div class="hat-top"></div>
+                        <div class="hat-brim"></div>
+                    </div>
+                </div>
+                <div class="scarf"></div>
+                <div class="arm left"></div>
+                <div class="arm right"></div>
+            </div>
+            <div class="shadow"></div>
+        </div>
+
+        <div class="card-container">
+            <div class="text-card">
+                <div class="tape"></div>
+                <div class="greeting-content">
+                    <div class="card-header-tag">ความสุขส่งท้ายปี</div>
+                    <h1 class="main-title">Merry Christmas<br>& Happy New Year</h1>
+                    <div class="year-text">Next 2569</div>
+                    <p class="greeting-body">
+                        Santy Pin ขอให้เทศกาลแห่งความสุขนี้<br>
+                        นำพาความโชคดี ความสุข สุขภาพที่แข็งแรง<br>
+                        มาสู่คุณและครอบครัว นะคะ <br>
+                        <strong>มีความสุขมากๆ นะคะ</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="final-msg">Merry Christmas 🎄✨</div>
+        <div class="credit">
+            IG: <a href="https://instagram.com/warunratj" target="_blank" style="color: #fff; text-decoration: none;">@warunratj</a>
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop><source src="festive-christmas-morning-455053.mp3" type="audio/mpeg"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
